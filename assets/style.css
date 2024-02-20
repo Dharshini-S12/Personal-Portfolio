@@ -146,8 +146,61 @@ section{
     flex-direction: column;
     gap: 2rem;
 }
+.more{
+    font-size: 20px;
+}
 
 /*About-end*/
+/*Skills start*/
+.Skill{
+    background-color:#fff;
+    padding: 30px;
+}
+.Heading1{
+    font-size: 14px;
+    font-weight: 600;
+    color: darkred;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.skill-container{
+    display: flex;
+    flex-direction: row;
+    gap: 4.5rem;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.skill-lang{
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    height: 500px;
+    width: 400px;
+    background: #fff;
+    border-radius: 2rem;
+    border: rgb(53, 53, 53)0.1rem solid;
+    border-color: rgb(163,163, 163);
+}
+.skill-items{
+    display: flex;
+    flex-direction: row;
+    margin-left: 110px;  
+}
+.html{
+    color: orangered;
+}
+.css{
+    color: blue;
+}
+.react{
+    color: rgb(38, 169, 220);
+}
+.boots{
+    color: purple;
+}
+/*Skills end*/
 
 
 
@@ -169,6 +222,7 @@ section{
         font-size: 15px;
         line-height: 23px;
     }
+    /*About start*/
     .About-container{
         display: flex;
         flex-direction: column;
@@ -176,6 +230,26 @@ section{
         gap: 3rem;
         padding: 20px;
     }
+    /*About end*/
+    /*skill start*/
+    .skill-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .skill-lang{
+        height: 450px;
+        width: 300px;
+    }
+    .About{
+        padding-top: -97px;
+    }
+    .Skill{
+        padding-top: 210px;
+    }
+    .more{
+        font-size: 16px;
+    }
+    /*skill end*/
 }
 
 
